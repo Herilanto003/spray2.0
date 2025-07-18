@@ -146,9 +146,9 @@ export default function Header() {
           </nav>
 
           {/* Right side buttons */}
-          {/* <div className="flex items-center space-x-2 sm:space-x-4">
+          <div className="flex items-center space-x-2 sm:space-x-4 md:hidden">
             {/* Dark Mode Toggle avec animation */}
-          {/* <button
+            {/* <button
               onClick={toggleDarkMode}
               className="relative p-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-all duration-300 group overflow-hidden hover:shadow-md"
               aria-label="Toggle dark mode"
@@ -163,8 +163,8 @@ export default function Header() {
               </span>
             </button> */}
 
-          {/* Mobile Menu Button avec animation */}
-          {/* <button
+            {/* Mobile Menu Button avec animation */}
+            <button
               onClick={toggleMobileMenu}
               className="md:hidden relative p-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-all duration-300 group overflow-hidden hover:shadow-md"
               aria-label="Toggle mobile menu"
@@ -177,8 +177,8 @@ export default function Header() {
                   <Menu className="h-5 w-5 text-gray-700 group-hover:text-blue-600 transform group-hover:scale-110 transition-transform duration-300" />
                 )}
               </span>
-            </button> */}
-          {/* </div> */}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation Menu avec animations */}
