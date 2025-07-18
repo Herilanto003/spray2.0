@@ -785,7 +785,7 @@ const About = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <Handshake className="mr-2 h-5 w-5" />
-                Devenir Partenaire
+                <a href="#contact">Devenir Partenaire</a>
               </motion.button>
             </motion.div>
           </motion.div>
