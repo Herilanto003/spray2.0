@@ -209,7 +209,7 @@ export default function Banner() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="flex items-center space-x-2">
-                  <span>Contactez Nous</span>
+                  <a href="#contact">Contactez Nous</a>
                   <motion.div
                     animate={{ x: [0, 5, 0] }}
                     transition={{ duration: 1.5, repeat: Infinity }}
