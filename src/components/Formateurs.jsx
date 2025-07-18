@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 import Fandeani from "/assets/fandeanip.jpg";
 import Aras from "/assets/aras.jpg";
 import Pierre from "/assets/pierre.jpg";
-import Dakely from "/assets/dakely.PNG";
+import Dakely from "/assets/dakely.jpg";
 
 const Formateurs = () => {
   const formateurs = [
