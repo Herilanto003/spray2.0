@@ -218,7 +218,7 @@ const About = () => {
           </span>
         </motion.div>
 
-        <motion.p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <motion.p className="text-xl text-gray-600 max-w-3xl mx-auto text-center">
           "De aona fandeani jiaby" - Votre passerelle vers l'excellence
           technologique
         </motion.p>
