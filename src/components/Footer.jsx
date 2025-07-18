@@ -61,7 +61,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  to="/about"
+                  href="#apropos"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   A propos
@@ -69,7 +69,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  to="/formations"
+                  href="#formations"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Nos formations
@@ -77,7 +77,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  to="/formateurs"
+                  href="#formateurs"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Nos formateurs
@@ -85,7 +85,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  to="/contact"
+                  href="#contact"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Contact

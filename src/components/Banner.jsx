@@ -228,7 +228,7 @@ export default function Banner() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="flex items-center space-x-2">
-                  <span>Nos formations</span>
+                  <a href="#formations">Nos formations</a>
                   <motion.div className="group-hover:rotate-45 transition-transform duration-300">
                     <Code2 className="h-5 w-5" />
                   </motion.div>
