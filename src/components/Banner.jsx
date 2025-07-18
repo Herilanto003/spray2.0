@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown, Sparkles, Code2, Rocket } from "lucide-react";
-import ImageFandeani from "/assets/fandeani 2.png";
+import ImageFandeani from "/assets/home.jpg";
 
 export default function Banner() {
   // Variants d'animation pour les éléments
